@@ -37,5 +37,7 @@ script:
 
   - source /home/travis/miniconda2/envs/pymdmix/amber.sh
   - python setup.py install
+  - mdmix -h
+  - python pyMDMix/test.py all
 
 
