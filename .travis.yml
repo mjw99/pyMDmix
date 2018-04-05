@@ -35,6 +35,7 @@ install:
 
 script:
 
+  - source /home/travis/miniconda2/envs/pymdmix/amber.sh
   - python setup.py install
 
 
